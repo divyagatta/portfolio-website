@@ -1,3 +1,5 @@
+import Card from "./Card";
+
 const About = () => {
   return (
     <section className="c-space section-spacing">
@@ -24,6 +26,7 @@ const About = () => {
             <p className="flex items-end text-5xl text-gray-500">
               Code is Poop!
             </p>
+            <Card />
           </div>
         </div>
         {/* Grid 3 */}
